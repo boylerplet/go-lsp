@@ -16,7 +16,7 @@ type Response struct {
 	// error
 }
 
-type NotificationMessage struct {
+type Notification struct {
 	RPC    string `json:"jsonrpc"`
 	Method string `json:"method"`
 }
